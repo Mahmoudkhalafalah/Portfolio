@@ -9,6 +9,9 @@
     .text-sm-black{
         color: #000 !important; 
     }
+    .nav-item a:hover{
+     color: rgb(56, 56, 235) !important;
+    }
 }/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .home-section h1 {
@@ -20,6 +23,9 @@
     .text-sm-black{
         color: #000 !important; 
     }
+    .nav-item a:hover{
+        color: rgb(56, 56, 235) !important;
+       }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -42,6 +48,9 @@
 
     .nav-item:hover::before {
         width: 80%;
+    }
+    .nav-item > a:hover{
+        color: #fff !important;
     }
     .bg-sm-white{
         background-color: transparent;
@@ -66,37 +75,10 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .nav-item::before {
-        content: '';
-        position: absolute;
-        border-bottom: 2px solid #fff;
-        width: 0;
-        left: 8px;
-        width: 0;
-        top: 100%;
-        transition: all 500ms;
-    }
-
-    .nav-item:hover::before {
-        width: 80%;
-    }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    .nav-item::before {
-        content: '';
-        position: absolute;
-        border-bottom: 2px solid #fff;
-        width: 0;
-        left: 8px;
-        width: 0;
-        top: 100%;
-        transition: all 500ms;
-    }
 
-    .nav-item:hover::before {
-        width: 80%;
-    }
     
 }

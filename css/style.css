@@ -28,14 +28,13 @@ nav i {
     display: flex;
     left: 100%;
     opacity: 1;
-
 }
 
-.dropdown-item:hover,
-.nav-item:hover {
+.dropdown-item:hover{
     color: rgb(56, 56, 235);
     background-color: transparent;
 }
+
 
 .home-section {
     position: relative;
