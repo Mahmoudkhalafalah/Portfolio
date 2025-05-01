@@ -24,19 +24,19 @@
                 <ul class="navbar-nav me-auto my-2 my-lg-0 ps-lg-0 ps-sm-3" style="--bs-scroll-height: 100px;">
                     <li class="nav-item position-relative">
                         <a class="nav-link active text-light text-sm-black fw-semibold" aria-current="page"
-                            href="#">HOME</a>
+                            href="#Home">HOME</a>
                     </li>
                     <li class="nav-item position-relative ">
-                        <a class="nav-link fw-semibold text-sm-black" href="#">ABOUT</a>
+                        <a class="nav-link fw-semibold text-sm-black" href="#About">ABOUT</a>
                     </li>
                     <li class="nav-item position-relative ">
-                        <a class="nav-link fw-semibold text-sm-black" href="#">SERVICES</a>
+                        <a class="nav-link fw-semibold text-sm-black" href="#Services">SERVICES</a>
                     </li>
                     <li class="nav-item position-relative">
-                        <a class="nav-link fw-semibold text-sm-black" href="#">WORK</a>
+                        <a class="nav-link fw-semibold text-sm-black" href="#Work">WORK</a>
                     </li>
                     <li class="nav-item position-relative">
-                        <a class="nav-link fw-semibold text-sm-black" href="#">BLOG</a>
+                        <a class="nav-link fw-semibold text-sm-black" href="#Blog">BLOG</a>
                     </li>
                     <li class="nav-item hover-dropdown dropdown position-relative ">
                         <a class="nav-link fw-semibold text-sm-black" href="#" role="button" data-bs-toggle="dropdown"
@@ -65,13 +65,13 @@
                         </ul>
                     </li>
                     <li class="nav-item position-relative">
-                        <a class="nav-link text-sm-black fw-semibold" href="#">CONTACT</a>
+                        <a class="nav-link text-sm-black fw-semibold" href="#Contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="home-section w-100 top-0">
+    <div class="home-section w-100 top-0" id="Home">
         <div class="container h-100">
             <div
                 class="home-content d-flex flex-column justify-content-center align-items-center h-100 text-light z-1 text-center">
@@ -80,7 +80,7 @@
             </div>
         </div>
     </div>
-    <div class="about-section pt-6">
+    <div class="about-section pt-6" id="About">
         <div class="container h-100">
             <div class="card w-100 h-100 ms-1 pt-5 ps-3 pe-3 pb-5 p-md-5 border-0 shadow-sm rounded-0 mb-5">
                 <div class="row flex-column flex-md-row">
@@ -138,7 +138,7 @@
             </div>
         </div>
     </div>
-    <div class="services-section">
+    <div class="services-section" id="Services">
         <div class="container">
             <div class="services-title text-center mb-5">
                 <h1 class="fw-bold">SERVICES</h1>
@@ -258,7 +258,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-section pt-6 pb-5">
+    <div class="portfolio-section pt-6 pb-5" id="Portfolio">
         <div class="container">
             <div class="portfolio-title text-center mb-5">
                 <h1 class="fw-bold">PORTFOLIO</h1>
@@ -371,7 +371,7 @@
             </div>
         </div>
     </div>
-    <div class="work-carousel position-relative">
+    <div class="work-carousel position-relative" id="Work">
         <div class="container">
             <div id="carouselExampleCaptions" class="carousel slide z-1" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -403,7 +403,7 @@
             </div>
         </div>
     </div>
-    <div class="blog-section pt-6 pb-5">
+    <div class="blog-section pt-6 pb-5" id="Blog">
         <div class="container">
             <div class="blog-title text-center mb-5">
                 <h1 class="fw-bold">BLOG</h1>
@@ -492,7 +492,7 @@
             </div>
         </div>
     </div>
-    <div class="contact-section pt-6 pb-5 position-relative">
+    <div class="contact-section pt-6 pb-5 position-relative shadow" id="Contact">
         <div class="container h-100">
             <div class="card w-100 h-100 ms-1 pt-5 ps-3 pe-3 pb-5 p-md-5 border-0 shadow-sm rounded-0 mb-5 z-1">
                 <div class="row flex-column flex-md-row">
@@ -512,10 +512,11 @@
                                     placeholder="Subject">
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Message"></textarea>
                             </div>
                             <button type="button"
-                                class="btn btn-primary ps-3 pe-3 fs-4 fw-light mt-4 rounded-pill align-self-center">Send
+                                class="bg-primary border-0 text-white pt-2 pb-2 ps-3 pe-3 fw-light mt-4 rounded-pill align-self-center">Send
                                 Message</button>
                         </form>
                     </div>
@@ -537,17 +538,32 @@
                                 <span class="text-secondary ms-2">contact@example.com</span>
                             </div>
                         </div>
-                        <div class="contact-icons">
-                            <i class="bi bi-facebook rounded-circle"></i>
-                            <i class="bi bi-instagram rounded-circle"></i>
-                            <i class="bi bi-twitter rounded-circle"></i>
-                            <i class="bi bi-linkedin rounded-circle"></i>
+                        <div class="contact-icons d-flex gap-2 mt-4">
+                            <i
+                                class="bi bi-facebook rounded-circle d-flex justify-content-center align-items-center"></i>
+                            <i
+                                class="bi bi-instagram rounded-circle d-flex justify-content-center align-items-center"></i>
+                            <i
+                                class="bi bi-twitter rounded-circle d-flex justify-content-center align-items-center"></i>
+                            <i
+                                class="bi bi-linkedin rounded-circle d-flex justify-content-center align-items-center"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="footer-section pt-4 pb-3">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center">
+                <p class="text-white">© Copyright <span class="fw-bold">DevFolio</span>. All Rights Reserved</p>
+                <p class="text-white">Designed by BootstrapMade</p>
+            </div>
+        </div>
+    </div>
+    <a href="#Home"><i
+            class="position-fixed bottom-0 end-0 me-3 mb-3 bi bi-arrow-up-short fs-3 text-white rounded-circle bg-primary-subtle"></i></a>
+
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
